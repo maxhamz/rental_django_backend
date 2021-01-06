@@ -25,7 +25,10 @@ SECRET_KEY = 'ftt(n2++j@g-6b)+gtsz59%5t^x35h_r436vf*6k#gou30g6b*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+]
 
 
 # Application definition
